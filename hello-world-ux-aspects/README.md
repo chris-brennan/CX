@@ -1,10 +1,39 @@
 # HelloWorldUxAspects
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.  
+
+This application utilizes the UX Aspects user interface framework and provides a great place to start for building modern, 
+responsive, mobile big data applications on the web.
+
+# Documentation and Examples
+
+See the documentation site for full details and interactive examples of UX Aspects components:
+
+[https://pages.github.houston.softwaregrp.net/caf/ux-aspects-micro-focus/#/landing](https://pages.github.houston.softwaregrp.net/caf/ux-aspects-micro-focus/#/landing)
+
+## Prerequisites
+
+* [Node.js](https://nodejs.org/) - this provides the `npm` command, which is used to install application dependencies.
+
+* [Git](https://git-scm.com/) - if building from source, Git is the best way to download the code.
+
+## Installation
+
+1. Clone the [CX](https://github.com/MicroFocus/CX) repository.
+
+2. Switch to the `hello-world-ux-aspects` directory.
+
+3. Configure the @micro-focus scope in NPM:
+
+    `npm config set @micro-focus:registry http://rh7-artifactory.svs.hpeswlab.net:8081/artifactory/api/npm/npm-dev-local/`
+
+    **Note:** If the the internal NPM registry is not accessible from your network, please [contact us](https://pages.github.houston.softwaregrp.net/caf/ux-aspects-micro-focus/#/team) and we will be glad to provide the required packages along with instructions for use.
+
+3. Run `npm install`
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -14,14 +43,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+To get support for UX Aspects you can view the [getting started page](https://pages.github.houston.softwaregrp.net/caf/ux-aspects-micro-focus/#/gettingstarted) or contact the team: https://pages.github.houston.softwaregrp.net/caf/ux-aspects-micro-focus/#/team
