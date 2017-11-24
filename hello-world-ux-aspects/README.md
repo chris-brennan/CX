@@ -1,4 +1,4 @@
-# HelloWorldUxAspects
+# Getting Started with the UX Aspects Framework
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.  
 
@@ -15,21 +15,15 @@ See the documentation site for full details and interactive examples of UX Aspec
 
 * [Node.js](https://nodejs.org/) - this provides the `npm` command, which is used to install application dependencies.
 
-* [Git](https://git-scm.com/) - if building from source, Git is the best way to download the code.
-
 ## Installation
 
 1. Clone the [CX](https://github.com/MicroFocus/CX) repository.
 
 2. Switch to the `hello-world-ux-aspects` directory.
 
-3. Configure the @micro-focus scope in NPM:
-
-    `npm config set @micro-focus:registry http://rh7-artifactory.svs.hpeswlab.net:8081/artifactory/api/npm/npm-dev-local/`
-
-    **Note:** If the the internal NPM registry is not accessible from your network, please [contact us](https://pages.github.houston.softwaregrp.net/caf/ux-aspects-micro-focus/#/team) and we will be glad to provide the required packages along with instructions for use.
-
 3. Run `npm install`
+
+    **Note:** If you cannot configure the `@micro-focus` scope then the internal NPM registry is not accessible from your network, [contact us](https://pages.github.houston.softwaregrp.net/caf/ux-aspects-micro-focus/#/team) and we will be glad to provide the required packages along with instructions for use.
 
 ## Development server
 
