@@ -19,7 +19,7 @@ See the documentation site for full details and interactive examples of UX Aspec
 
 1. Clone the [CX](https://github.com/MicroFocus/CX) repository.
 
-2. Switch to the `hello-world-ux-aspects` directory.
+2. In the command line go to the `hello-world-ux-aspects` directory.
 
 3. Run `npm install`
 
